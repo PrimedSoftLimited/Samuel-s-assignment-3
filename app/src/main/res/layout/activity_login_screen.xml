@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background"
+    tools:context=".LoginScreen">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        style="@style/Logos"
+        android:src="@drawable/mentai_main_logo"
+        android:background="@android:color/transparent"
+        />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mentaid"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/main_logo"
+        />
+
+    <EditText
+        android:id="@+id/edtxt"
+        style="@style/Edit_text"
+        android:hint="EMAIL ADDRESS"
+        android:layout_below="@id/txt"
+        android:background="@drawable/edit_text"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        />
+
+    <EditText
+        android:id="@+id/edtxt1"
+        style="@style/Edit_text"
+        android:hint="PASSWORD"
+        android:drawableRight="@drawable/ic_visibility_black_24dp"
+        android:layout_below="@id/edtxt"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:background="@drawable/edit_text"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        style="@style/Button"
+        android:text="LOGIN"
+        android:layout_below="@id/edtxt1"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account,"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="12sp"
+        android:layout_below="@id/btn"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="235dp"
+        android:clickable="true"/>
+
+</RelativeLayout>

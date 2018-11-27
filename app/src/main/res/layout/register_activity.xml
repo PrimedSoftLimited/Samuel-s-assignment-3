@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    style="@style/background">
+
+    <ImageView
+        android:id="@+id/main_logo1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mentai_main_logo"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:text="mentaid"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_logo1"/>
+
+    <EditText
+        android:id="@+id/edtxt2"
+        style="@style/Edit_text"
+        android:layout_below="@id/txt3"
+        android:layout_marginTop="40dp"
+        android:hint="FIRST NAME"
+        android:background="@drawable/edit_text"
+        android:drawableLeft="@drawable/ic_mood_black_24dp" />
+
+    <EditText
+        android:id="@+id/edtxt3"
+        style="@style/Edit_text"
+        android:layout_below="@id/edtxt2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text"
+        android:hint="LAST NAME"
+        android:drawableLeft="@drawable/ic_mood_black_24dp" />
+
+    <TextView
+        android:id="@+id/txt4"
+        style="@style/text"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/edtxt3"
+        android:text="sign up as"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtxt3"
+        android:layout_marginLeft="90dp"/>
+
+    <TextView
+        style="@style/text"
+        android:layout_marginLeft="125dp"
+        android:layout_below="@id/edtxt3"
+        android:text="user"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtxt3"
+        android:layout_marginLeft="180dp"/>
+
+    <TextView
+        style="@style/text"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@id/edtxt3"
+        android:text="counsellor"/>
+
+    <EditText
+        android:id="@+id/edtxt4"
+        style="@style/Edit_text"
+        android:layout_below="@id/edtxt3"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edit_text"
+        android:hint="EMAIL ADDRESS"
+        android:drawableLeft="@drawable/ic_email_black_24dp" />
+
+    <EditText
+        android:id="@+id/edtxt5"
+        style="@style/Edit_text"
+        android:layout_below="@id/edtxt4"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text"
+        android:hint="PHONE NUMBER"
+        android:drawableLeft="@drawable/ic_call_black_24dp" />
+
+
+    <EditText
+        android:id="@+id/edtxt6"
+        style="@style/Edit_text"
+        android:hint="PASSWORD"
+        android:drawableRight="@drawable/ic_visibility_black_24dp"
+        android:layout_below="@id/edtxt5"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:background="@drawable/edit_text" />
+
+    <EditText
+        android:id="@+id/edtxt7"
+        style="@style/Edit_text"
+        android:hint="RE-ENTER PASSWORD"
+        android:drawableRight="@drawable/ic_visibility_black_24dp"
+        android:layout_below="@id/edtxt6"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:background="@drawable/edit_text" />
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/Button"
+        android:text="REGISTER"
+        android:textSize="20sp"
+        android:layout_below="@id/edtxt7"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+
+
+</RelativeLayout>

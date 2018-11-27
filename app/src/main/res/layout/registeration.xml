@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    style="@style/background">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_image"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/kelly2" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE PROFILE PAGE PHOTO"
+        android:layout_below="@id/circle_image"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_add_a_photo_black_24dp"
+        android:drawablePadding="7dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/edtxt2"
+        style="@style/Edit_text"
+        android:layout_below="@id/text7"
+        android:layout_marginTop="10dp"
+        android:hint="FIRST NAME"
+        android:background="@drawable/edit_text"
+        android:drawableLeft="@drawable/ic_mood_black_24dp" />
+
+    <EditText
+        android:id="@+id/edtxt3"
+        style="@style/Edit_text"
+        android:layout_below="@id/edtxt2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text"
+        android:hint="LAST NAME"
+        android:drawableLeft="@drawable/ic_mood_black_24dp" />
+
+
+    <EditText
+        android:id="@+id/edtxt4"
+        style="@style/Edit_text"
+        android:layout_below="@id/edtxt3"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text"
+        android:hint="EMAIL ADDRESS"
+        android:drawableLeft="@drawable/ic_email_black_24dp" />
+
+    <EditText
+        android:id="@+id/edtxt5"
+        style="@style/Edit_text"
+        android:layout_below="@id/edtxt4"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text"
+        android:hint="SELECT LOCATION"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"/>
+
+    <EditText
+        android:id="@+id/edtxt8"
+        style="@style/edittxt3"
+        android:hint="QUOTE FOR BIO"
+        android:drawableLeft=""
+        android:layout_below="@id/edtxt5"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text" />
+
+
+    <EditText
+        android:id="@+id/edtxt6"
+        style="@style/Edit_text"
+        android:hint="PASSWORD"
+        android:drawableRight="@drawable/ic_visibility_black_24dp"
+        android:layout_below="@id/edtxt8"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:background="@drawable/edit_text" />
+
+
+    <EditText
+        android:id="@+id/edtxt7"
+        style="@style/Edit_text"
+        android:hint="RE-ENTER PASSWORD"
+        android:drawableRight="@drawable/ic_visibility_black_24dp"
+        android:layout_below="@id/edtxt6"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:background="@drawable/edit_text" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/edtxt7"
+        android:layout_centerHorizontal="true"
+        android:text="UPDATE"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pink_borders"/>
+
+</RelativeLayout>

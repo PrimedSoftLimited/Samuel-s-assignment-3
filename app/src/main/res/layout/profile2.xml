@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/kelly2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/half_curved_edges"
+        android:layout_alignParentBottom="true">
+
+    <TextView
+        android:id="@+id/text3"
+        style="@style/text1"
+        android:text="kelly clarkson"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+        android:drawablePadding="20dp" />
+
+
+    <TextView
+        android:id="@+id/text4"
+        style="@style/text1"
+        android:text="Port Harcourt, Nigeria"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:drawablePadding="20dp"
+        android:layout_below="@id/text3" />
+
+    <TextView
+        android:id="@+id/text5"
+        style="@style/text1"
+        android:text="You Are Greater Than You Can Ever Imaine"
+        android:textStyle="italic"
+        android:layout_below="@id/text4"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/text5"
+        android:layout_centerHorizontal="true"
+        android:text="EDIT PROFILE"
+        android:textSize="17sp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/pink_borders"/>
+
+</RelativeLayout>
+
+</RelativeLayout>

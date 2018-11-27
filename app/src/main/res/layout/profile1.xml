@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kuan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/half_curved_edges"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/text3"
+            style="@style/text1"
+            android:text="STEPHANIE HARRIS"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+            android:drawablePadding="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginLeft="120dp"
+            android:textSize="14sp"
+            android:text="(M.A. Counsellor)" />
+
+        <TextView
+            android:id="@+id/text4"
+            style="@style/text1"
+            android:text="Port Harcourt, Nigeria"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:drawablePadding="20dp"
+            android:layout_below="@id/text3" />
+
+        <TextView
+            android:id="@+id/text5"
+            style="@style/text1"
+            android:text="Don't Let Anyone Think Less Of You"
+            android:textStyle="italic"
+            android:layout_below="@id/text4"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_message_black_24dp"
+            android:drawablePadding="7dp" />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="1dp"
+            android:layout_height="16dp"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="210dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:layout_marginLeft="230dp"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:drawablePadding="7dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

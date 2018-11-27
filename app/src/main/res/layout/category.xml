@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/main_logo1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/mentai_main_logo"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/main_logo1"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/txt5"
+            style="@style/text"
+            android:layout_below="@id/line"
+            android:layout_centerHorizontal="true"
+            android:text="CHAT"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_chat_bubble_black_24dp"
+            android:layout_below="@id/txt5"
+            android:layout_marginLeft="50dp"/>
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/txt5"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"
+            android:background="#000000" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/purple_box"
+            android:layout_below="@id/txt5"
+            android:layout_marginLeft="210dp"
+            android:layout_marginRight="50dp"/>
+
+        <TextView
+            android:id="@+id/txt6"
+            style="@style/text"
+            android:layout_below="@id/img"
+            android:layout_marginLeft="50dp"
+            android:text="other users"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt7"
+            style="@style/text"
+            android:layout_below="@id/img2"
+            android:layout_marginLeft="200dp"
+            android:text="counsellors"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:background="#BDBDBD"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_play_arrow_black_24dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_home_black_24dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_account_circle_black_24dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_settings_black_24dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

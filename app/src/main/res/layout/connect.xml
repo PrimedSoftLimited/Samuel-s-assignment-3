@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <ImageView
+        style="@style/Logos"
+        android:layout_gravity="center"
+        android:src="@drawable/mentai_logo"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect Here"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_edges"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+</LinearLayout>

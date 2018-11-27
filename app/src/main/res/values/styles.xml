@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <!-- logo attribute -->
+    <style name="Logos" parent="Base.Widget.AppCompat.ImageButton">
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_marginTop">80dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+
+    <!-- for the background -->
+    <style name="background" parent="Base.Theme.AppCompat.Light">
+        <item name="android:padding">24dp</item>
+    </style>
+
+    <!-- for the edittext view -->
+    <style name="Edit_text" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:drawableStart">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <!-- for buttons with color -->
+
+    <style name="Button" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@color/button_color</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+
+    <!--for some text -->
+    <style name="text" parent="TextAppearance.AppCompat">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginTop">7dp</item>
+    </style>
+
+    <!-- for profile text -->
+    <style name="text1" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginLeft">70dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- for registeration xml edittext -->
+    <style name="edittext2" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:drawableStart">5dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <!-- for bio -->
+    <style name="edittxt3" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:drawableStart">5dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+
+
+</resources>
