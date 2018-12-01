@@ -2,7 +2,228 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/background">
+    style="@style/background"
+    android:id="@+id/layout">
+
+    <TextView
+        android:id="@+id/txt4"
+        style="@style/text"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/edtxt3"
+        android:text="DEFAULT VIEW"/>
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtxt3"
+        android:layout_marginLeft="125dp" />
+
+    <TextView
+        style="@style/text"
+        android:layout_marginLeft="160dp"
+        android:layout_below="@id/edtxt3"
+        android:text="CARD"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtxt3"
+        android:layout_marginLeft="210dp"/>
+
+    <TextView
+        style="@style/text"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/edtxt3"
+        android:text="LIST"/>
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/lilac_layout">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/overlaping"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kelly2"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/txtview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/overlaping"
+            android:drawableLeft="@drawable/red_lens"
+            android:drawablePadding="5dp"
+            android:text="Stephanie Harris"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtview4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtview3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/overlaping"
+            android:background="@drawable/pink_curved_rectangle"
+            android:text="Online"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtview5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtview4"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/overlaping"
+            android:drawableLeft="@drawable/ic_location_on_lilac_20dp"
+            android:drawablePadding="5dp"
+            android:text="@string/location"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@id/txtview5"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_message_black_24dp"
+            android:drawablePadding="7dp" />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="1dp"
+            android:layout_height="16dp"
+            android:layout_below="@id/txtview5"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="210dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:layout_marginLeft="230dp"
+            android:layout_below="@id/txtview5"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:drawablePadding="7dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/blue_layout">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/overlaping2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kelly2"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/txtview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/overlaping2"
+            android:drawableLeft="@drawable/red_lens"
+            android:drawablePadding="5dp"
+            android:text="Stephanie Harris"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtview7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtview6"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/overlaping2"
+            android:background="@drawable/blue_curved_rectangle"
+            android:text="Online"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtview8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtview7"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/overlaping2"
+            android:drawableLeft="@drawable/ic_location_on_blue_24dp"
+            android:drawablePadding="5dp"
+            android:text="@string/location"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@id/txtview8"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_message_blue_24dp"
+            android:drawablePadding="7dp" />
+
+        <View
+            android:id="@+id/line6"
+            android:layout_width="1dp"
+            android:layout_height="16dp"
+            android:layout_below="@id/txtview8"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="210dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:layout_marginLeft="230dp"
+            android:layout_below="@id/txtview8"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_call_blue_20dp"
+            android:drawablePadding="7dp" />
+
+    </RelativeLayout>
+
 
 
 

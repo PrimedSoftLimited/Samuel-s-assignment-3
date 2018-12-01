@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">mentAid</string>
     <string name="connect">Hello Sandra, Need To Talk To Someone?</string>
+    <string name="connect2">Hello Sandra, Welcome Back, Lets Continue Where You Left Off</string>
+    <string name="location"> <b>Port-Harcourt</b> </string>
+    <string name="note">Are You Feeling Depressed? This Video Would Motivste You And Soothe Your Soul</string>
 </resources>

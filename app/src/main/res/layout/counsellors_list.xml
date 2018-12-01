@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    style="@style/background">
+
+    <TextView
+        android:id="@+id/txt4"
+        style="@style/text"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/edtxt3"
+        android:text="DEFAULT VIEW"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtxt3"
+        android:layout_marginLeft="125dp"/>
+
+    <TextView
+        style="@style/text"
+        android:layout_marginLeft="160dp"
+        android:layout_below="@id/edtxt3"
+        android:text="CARD"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtxt3"
+        android:layout_marginLeft="210dp"/>
+
+    <TextView
+        style="@style/text"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/edtxt3"
+        android:text="LIST"/>
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="If you know anyone that is feeling suicidal call this helpline - 07031146188"
+        android:textStyle="italic"
+        android:layout_below="@id/txt4"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quote"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="50dp"
+        android:divider="@color/borders"
+        android:dividerHeight="2px">
+
+        <TextView
+            style="@style/list"
+            android:text="Stephanie Harris"/>
+
+        <TextView
+            style="@style/list"
+            android:text="Johnson Stone"/>
+
+        <TextView
+            style="@style/list"
+            android:text="Jeremy Daniels"/>
+
+        <TextView
+            style="@style/list"
+            android:text="Michael Ajah"/>
+
+        <TextView
+            style="@style/list"
+            android:text="Neil Johnson"/>
+
+        <TextView
+            style="@style/list"
+            android:text="Maureen Gibson"/>
+
+        <TextView
+            style="@style/list"
+            android:text="Ogunyemi Daniels"/>
+
+        <TextView
+            style="@style/list"
+            android:text="Jake Philips"/>
+
+        <TextView
+            style="@style/list"
+            android:text="Sandra Peters"/>
+
+        <TextView
+            style="@style/list"
+            android:text="MENTAID Bot"/>
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#BDBDBD"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_play_arrow_black_24dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_home_black_24dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_account_circle_black_24dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_settings_black_24dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
